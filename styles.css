@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.shop-button button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    opacity: 0.1;
+    margin: 0;
+}
+
+.product-details {
+    text-align: center;
+    padding: 50px;
+}
+
+.product-details h2, .product-details h3 {
+    margin: 0;
+}
+
+.product-details p {
+    margin: 20px 0;
+}
+
+.add-to-bag {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.brands img {
+    margin: 0 20px;
+    height: 40px;
+}
+
+.specs {
+    padding: 50px;
+    text-align: center;
+}
+
+.specs h2 {
+    margin-bottom: 50px;
+    font-size: 5em;
+    opacity: 0.1;
+    margin: 0;
+}
+
+.specs ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.specs ul li {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.specs ul li img {
+    margin-right: 20px;
+}
+
+.specs-image {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.case {
+    display: flex;
+    text-align: center;
+    padding: 50px;
+}
+
+.case h2 {
+    margin-bottom: 20px;
+}
+
+.case-image {
+    width: 200px;
+    height: auto;
+}
+.button-image{
+    margin-left: 20px;
+}
+
+.case p {
+    margin: 20px 0;
+}
+
+.more-info {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.promo {
+    background-color: #333;
+    padding: 50px;
+    text-align: center;
+}
+
+.promo p {
+    margin: 10px 0;
+}
+
+.buy-now {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.styles {
+    padding: 50px;
+    text-align: center;
+}
+
+.styles h2 {
+    margin-bottom: 30px;
+}
+
+.styles-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.style-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.style-item img {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-links div {
+    margin: 0 20px;
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links form {
+    display: flex;
+}
+
+.footer-links input[type="email"] {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+.footer-links button[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+}
+
+    
